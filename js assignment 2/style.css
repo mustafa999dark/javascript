@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(/javascript-chapter/image/misurina-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0em;
+}
+
+.heading2>h1{
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 1em auto;
+    color:#c7b0ce;
+    border-radius: 1em;
+    padding: 0.5em;
+    outline: 0.1em solid white;
+    background-color: #3d353f;
+}
+.question-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em 0em;
+}
+.question-list>a{
+    text-decoration: none;
+    font-size: 4em;
+    font-family: sans-serif;
+    color: #c7b0ce;
+    margin: 1em auto;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: #3d353f;
+}
+.question-list>a:hover{
+    outline: 0.2em solid white;
+    box-shadow: 0em 0em 1em #c7b0ce ;
+}

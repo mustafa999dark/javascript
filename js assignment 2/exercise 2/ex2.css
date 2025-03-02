@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(/javascript-chapter/image/misurina-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.head-main{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 2em;
+}
+.head-main>h1{
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#c7b0ce;
+    padding: 0.5em;
+    border-radius: 0.5em;
+     outline: 0.1em solid white; 
+     background-color: #3d353f;
+}
+
+.con-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d353f;
+    color: #c7b0ce;
+    width: 50%;
+    margin: 2em auto;
+    border-radius: 0.8em;
+    padding: 2em;
+    outline: 0.1em solid white;
+}
+.con-1>h1{
+     font-size: 3em;
+     margin: 0.3em auto;
+     padding: 0.2em;
+     font-family: sans-serif;
+}
+.con-1>#head{
+    border-bottom: 0.1em solid white;
+}
+
+.con-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    margin: 4em auto;
+    background-color: #3d353f;
+    color: #c7b0ce;
+    border-radius: 0.5em;
+    outline: 0.1em solid white;
+    width: 50%;
+}
+.con-2>#head1{
+    font-size: 3em;
+    font-family: sans-serif;
+    padding: 0.3em;
+    border-bottom: 0.1em solid white;
+    margin: 0.5em auto;
+}
+.con-2>#para{
+    font-size: 2em;
+    padding: 0.3em;
+    font-family: sans-serif;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin: 2em auto;
+    width: 50%;
+    font-family: sans-serif;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #c7b0ce;
+    background-color: #3d353f;
+    text-decoration: none;
+
+}
+a:hover{
+    border: 0.2em solid white;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 3em;
+
+}
