@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-image: url(/javascript-chapter/image/chapter1.jpg);
+    background-size: 100;
+    background-repeat: no-repeat;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+a{
+    width: 50%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    margin: 5em auto;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    background-color:  #035a52;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+a:hover{
+    font-size: 3.5em;
+  border-bottom: 0.2em solid white;
+  outline: 0.1em solid whitesmoke;
+  transition: 0.5s;
+
+
+}
+a:active{
+    color:blue;
+}

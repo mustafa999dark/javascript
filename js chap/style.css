@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, black,gray,rgb(65, 62, 62),rgb(160, 160, 160),rgb(0, 0, 0),rgb(209, 206, 206));
+    background-size: 100;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    margin: 2em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    line-height: 1em;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.assignments{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+.assignments>li{
+    text-align: center;
+    margin: 4em 0em;
+    list-style: none;
+    
+}
+.assignments>li>a{
+    background-color: black;  
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 2.5em;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.assignments>li>a:hover{
+    border: 0.2em solid black;
+    outline: 0.2em solid white;
+    padding: 0.5em;
+    opacity: 0.5;
+    transition: 0.4s;
+}

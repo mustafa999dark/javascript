@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: url(/javascript-chapter/image/vestrahorn-mountains-stokksnes-iceland.jpg);
+    background-size: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    padding: 1em 1em;
+    border-radius: 1em;
+    border: 0.1em solid white;
+    cursor: default;
+    background-color:#a16842;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    width: 50%;
+}
+
+a{
+    width: 50%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    margin: 5em auto;
+    text-align: center;
+    font-size: 3em;
+    background-color:#a16842;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+a:hover{
+    font-size: 3.5em;
+  border-bottom: 0.2em solid white;
+  outline: 0.1em solid whitesmoke;
+  transition: 0.5s;
+
+
+}
+a:active{
+    color:blue;
+}
