@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    background-image:url(/image/wet-monstera-deliciosa-plant-leaves-garden.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 50%;
+    font-size: 6em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 4em auto;
+    padding: 1em;
+    background-color: #595959;
+    border-radius: 1em;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+a:hover{
+    outline: 0.2em solid white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 7em;
+
+}
