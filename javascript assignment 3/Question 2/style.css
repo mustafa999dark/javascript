@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(/image/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2em auto;
+    width: 40%;
+    padding: 1em;
+    color: white;
+    background-color: #a67c84;
+    font-size: 5em;
+    font-family: sans-serif;
+    outline: 0.2em solid white;
+    border-radius: 1em;
+}
+
+
+a{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2em auto;
+    width: 40%;
+    padding: 1em;
+    color: white;
+    background-color: #a67c84;
+    font-size: 2em;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 1em;
+
+}
+
+a:hover{
+    transition: 0.5s;
+    outline: 0.2em solid white;
+    font-size: 3em;
+}
