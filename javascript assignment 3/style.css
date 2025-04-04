@@ -17,6 +17,23 @@ background-attachment: fixed;
 
 }
 
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #a67c84;
+  color: white;
+  padding: 2em;
+  margin: 2em auto;
+  font-size: 5em;
+  border-radius: 2em;
+  font-family: sans-serif;
+  outline: 0.1em solid white;
+
+
+}
+
 a{
 
   text-decoration: none;
