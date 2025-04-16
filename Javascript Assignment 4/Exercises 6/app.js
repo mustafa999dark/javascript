@@ -10,4 +10,4 @@ return sum;
 
 }
 
-console.log(arraySum([1 ,2,3]));
+console.log(arraySum([6 ,2,3]));
