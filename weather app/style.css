@@ -1,0 +1,193 @@
+*{
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+
+html{
+    font-size: 63.5%;
+}
+.main1 video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    object-fit: cover; 
+    width: 100%;
+    height: 100%;  
+    opacity: 0.9;     
+}
+
+header{
+   width: 40%;
+   margin: 5em auto;
+   background-color:#5a82e8;
+   border-bottom-left-radius: 10em;
+   border-top-right-radius: 10em;
+   /* outline: 0.3em solid white; */
+   box-shadow: 1em 1.2em 8.5em white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+opacity: 0.8;
+
+}
+
+header>img{
+    width: 10em;
+}
+
+
+header>h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    padding: 1em 0.2em 1em 1em;
+}
+main{
+    margin: 0em auto;
+    position: relative;
+    width: 40em;
+    height: 55.5em;
+    border-radius: 1.6em;
+    padding: 2em;
+    opacity: 0.8;
+     box-shadow: 1em 1.2em 8.5em white;
+}
+
+main>.search-box{
+position: relative;
+width: 100%;
+height: 5.5em;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+.search-box >i{
+    position: absolute;
+    left: 0.5em;
+    font-size: 2.5em;
+}
+.search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border-radius: 1em;
+    font-size: 2em;
+    background-color: #5a82e8;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0em 4.8em 0em 4.2em;
+}
+.search-box input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+.search-box button{
+    position: absolute;
+    right: 0;
+    width: 4em;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-size: 2.5em;
+    outline: none;
+    padding: 0em 2em 0em 2em;
+    cursor: pointer;
+}
+
+.w-main{
+    text-align: center;
+    margin: 4em 0em;
+    color :white
+}
+.w-main img{
+    width: 60%;
+}
+.w-main .temperature{
+    position: relative;
+    font-size: 6.8em;
+    line-height: 1;
+    font-weight: 700;
+    margin: 0.2em 0em 0em 0em;
+}
+.w-main .temperature>span{
+    position: absolute;
+    font-size: 0.4em;
+}
+.w-main .description{
+    font-weight: 600;
+    font-size: 2.3em;
+}
+.weather-d{
+    position: absolute;
+    bottom: 4em;
+    left: 0em;
+    width: 100%;
+    padding: 0em 2em;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.w-main , .weather-d,.not{
+    visibility: hidden;
+}
+.w-main.active , .weather-d.active,.not.active{
+    visibility: visible;
+}
+.weather-d .humidity , .weather-d .wind{
+    display: flex;
+    margin: 0em auto;
+    align-items: center;
+    width: 50%;
+}
+.weather-d i {
+    font-size: 4.8em;
+    margin-right: 0.2em;
+}
+.weather-d span {
+    font-size: 2.2em;
+    font-weight: 500;
+    color: white;
+}
+.weather-d p {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: white;
+}
+.weather-d .humidity{
+    padding-left: 2em;
+    justify-content: flex-start;
+}
+.weather-d .wind{
+    padding-right: 2em;
+    justify-content: flex-end;
+}
+
+.not{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 11em;
+}
+.not img {
+    width: 65%;
+
+}
+.not p {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: white;
+    margin-top: 1em;
+}

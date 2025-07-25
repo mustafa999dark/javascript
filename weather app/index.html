@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+</head>
+<body>
+    <div class="main1">
+        <video autoplay muted loop playsinline>
+            <source src="all/856024-uhd_3840_2160_30fps.mp4" type="video/mp4">
+        </video>
+     <header>
+        <h1 class=" animate__animated animate__zoomIn">Weather App</h1>
+        <img src="/image/cloudy.png" alt="" class="  animate__animated animate__flash">
+     </header>
+
+
+    <main class="animate__animated animate__jackInTheBox">
+         <div class="search-box">
+         <i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i>
+            <label for="new"></label>
+            <input type="text" placeholder="Enter your location" id="new">
+            <button>
+            <i class="fa-solid fa-magnifying-glass" style="color: #74C0FC;"></i>
+            </button>
+        </div>
+        
+
+        <div class="w-main">
+            <div class="box">
+                <div class="weather-info">
+                    <div class="weather">
+                        <img src="all/cloud.png" alt="cloud-image" class="new"/>
+                        <p class="temperature">0 <span>&deg;C </span></p>
+                        <p class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="weather-d">
+            <div class="humidity">
+               <i class="fa-solid fa-water" style="color: #74C0FC;"></i>
+               <div class="text">
+                <div class="info">
+                    <span>0%</span>
+                </div>
+                <p>Humidity</p>
+               </div>
+            </div>
+
+
+
+            <div class="wind">
+             <i class="fa-solid fa-wind" style="color: #74C0FC;"></i>
+               <div class="text">
+                <div class="info-w">
+                    <span>0km/h</span>
+                </div>
+                <p>Wind Speed</p>
+               </div>
+            </div>
+        </div>
+           <div class="not">
+                <div class="bb">
+                    <img src="all/404.png" alt="Error Image"/>
+                    <p>Location not found!</p>
+                </div>
+            </div>
+    </main>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
